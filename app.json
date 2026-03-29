@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Zahra D2",
+    "slug": "zahad2-org",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.yourname.zahad2",
+      "minSdkVersion": 21
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "icon": "./assets/icon.png",
+    "splash": {
+        "image": "./assets/icon.png",
+        "resizeMode": "contain",
+       "backgroundColor": "#ffffff"
+   },
+    "scheme": "zahad2",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1d2cefb8-e73c-455b-bdc9-e87e2a4230dd"
+      }
+    },
+    "owner": "karim058538-org"
+  }
+}
