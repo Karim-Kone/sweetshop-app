@@ -16,11 +16,11 @@ jobs:
       - name: 🛠 Install Dependencies
         run: npm install
 
-      - name: 🚀 Export Android Project
-        run: npx expo export:embed --platform android
+      - name: 🚀 Build Android
+        run: npx expo prebuild --platform android
 
-      - name: 📦 Archive Files
+      - name: 📦 Archive Project
         uses: actions/upload-artifact@v4
         with:
-          name: sweetshop-project-ready
+          name: sweetshop-app-files
           path: .
