@@ -1,0 +1,18 @@
+# Ignorer les fichiers inutiles pour le build
+node_modules
+.git
+.github
+*.log
+*.md
+.env.local
+.env.development
+admin/
+__tests__/
+coverage/
+.expo/
+web-build/
+dist/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
